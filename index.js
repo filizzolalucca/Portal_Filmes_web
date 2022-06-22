@@ -48,14 +48,14 @@ function exibeFilmesEmCartaz() {
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-6 lancamento-poster">
-						<a target="_blank" href="/detalhes/filme.html?id=${filme.id}">
+						<a target="_blank" href="filme.html?id=${filme.id}">
 								<img src="${BASE_IMG_URL}${filme.poster_path}">
 							</a>
 						</div>
 						<div class="col-lg-6">
 							<h4>
 								<strong>
-									<a target="_blank" class="text-dark" href="/detalhes/filme.html?id=${filme.id}">
+									<a target="_blank" class="text-dark" href="filme.html?id=${filme.id}">
 										${filme.title}
 										<small class="text-dark"><i class="fa fa-link" aria-hidden="true"></i></small>
 									</a>
@@ -129,7 +129,7 @@ function exibeFilmesEmDestaque() {
 
 		texto += `
 			<div class="filme-destaque col-12 col-md-6 col-lg-3 thumbnail ">
-				<a target="_blank" href="/detalhes/filme.html?id=${filme.id}">
+				<a target="_blank" href="filme.html?id=${filme.id}">
 					<img src="${BASE_IMG_URL}${filme.poster_path}" alt="${filme.title}">
 				</a>
 				<p>
@@ -173,7 +173,7 @@ function adicionaFilmesEmDestaque() {
 
 		texto += `
 			<div class="filme-destaque col-12 col-md-6 col-lg-3 thumbnail ">
-			<a target="_blank" href="/detalhes/filme.html?id=${filme.id}">
+			<a target="_blank" href="filme.html?id=${filme.id}">
 			<img src="${BASE_IMG_URL}${filme.poster_path}" alt="${filme.title}">
 				</a>
 				<p>
@@ -230,7 +230,7 @@ const searchBar = document.getElementById("input-search")
 const searchButton = document.getElementById("button_pesquisar")
 
 searchButton.addEventListener("click" , (e) => {
-	window.location.href = `pesquisa/pesquisa.html?query=${searchBar.value}`;
+	window.location.href = `pesquisa.html?query=${searchBar.value}`;
 	e.preventDefault();
 } )
 

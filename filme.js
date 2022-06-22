@@ -5,7 +5,7 @@ const BASE_LOGO_URL = 'http://image.tmdb.org/t/p/w45';
 
 
 function voltarParaHome(){
-	window.location.replace('../index.html')
+	window.location.replace('index.html')
 }
 
 function exibeFilme() {
@@ -125,6 +125,6 @@ const searchBar = document.getElementById("input-search")
 const searchButton = document.getElementById("button_pesquisar")
 
 searchButton.addEventListener("click" , (e) => {
-	window.location.href = `/pesquisa/pesquisa.html?query=${searchBar.value}`;
+	window.location.href = `pesquisa.html?query=${searchBar.value}`;
 	e.preventDefault();
 } )

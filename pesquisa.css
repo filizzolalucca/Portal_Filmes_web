@@ -1,0 +1,47 @@
+.img_pesquisas{
+  height: 40%;
+}
+  
+  img.navbar-brand {
+    width: 150px;
+    height: 130px;
+  }
+  
+  img.navbar-brand:hover {
+  cursor: pointer;
+  }
+  
+  #input-search{
+    width: 60%;
+    margin-bottom: 8px;
+  }
+  
+  
+  #navbarNav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Pesquisa */
+div.container section#section-pesquisa {
+    padding: 80px 10px 5px;
+    overflow: hidden;
+  }
+  
+  section#section-pesquisa img {
+    height: auto;
+    min-width: 100%;
+  }
+  
+  .page-item.disabled .text-dark {
+    color: gray !important;
+  }
+  /* FIM Pesquisa */
+  
