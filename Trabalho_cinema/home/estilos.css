@@ -1,0 +1,149 @@
+.filmes-destaque img {
+  width: 100%;
+  height: 100%;
+}
+
+#input-search{
+  width: 50%;
+  margin-bottom: 8px;
+}
+h4{
+  color: white;
+}
+
+
+#searchNav{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50%;
+}
+
+img.navbar-brand {
+    width: 150px;
+    height: 130px;
+}
+.img_redes_socias{
+  width: 50px;
+  height:50px;
+  margin-right: 16px;
+}
+
+.lancamento{
+    background: rgba(205, 7, 7, 0.896);
+}
+
+
+
+.lancamentos_title{
+    text-align: center;
+}
+
+.destaques_header{
+    margin-top: 32px;
+}
+.carousel-inner{
+    margin-bottom: 16px;
+}
+
+
+.informacoes_filme{
+    text-align: left;
+}
+
+.informacoes_filme > p, h5 {
+    display: inline;
+}
+
+.filmes_destaques{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.img_destaques{
+    width: 100%;
+    height: 100%;
+}
+
+.imagens_profile{
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+}
+
+.card_avaliacoes h6{
+    display: inline;
+}
+
+.entrevista{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: antiquewhite;
+}
+
+.novidades{
+    margin-bottom: 16px;
+}
+
+
+.card_novidades{
+    margin-bottom: 8px;
+}
+
+.card_novidades img {
+  margin-bottom: 16px;;
+}
+
+
+
+
+/* */
+
+div.carousel-item div.lancamento-poster {
+  text-align: center;
+}
+
+div.carousel-item div.lancamento-poster img {
+  width: auto;
+}
+
+div.container section#section-lancamentos {
+  padding-top: 80px;
+}
+
+div#carousel-lancamentos div.carousel-item .lancamento-sinopse {
+  font-size: 0.9em;
+  line-height: normal;
+}
+
+div#carousel-lancamentos div.carousel-item .lancamento-sinopse strong {
+  font-size: 1.1em;
+}
+
+div#carousel-lancamentos div.carousel-item div.row > div {
+  margin-bottom: 10px;
+}
+
+div#carousel-lancamentos div.carousel-inner {
+  padding-bottom: 30px;
+  min-height: 430px;
+}
+
+@media (min-width: 991px) {
+  div#carousel-lancamentos div.carousel-inner {
+    padding-bottom: 50px;
+  }
+}
+
+div#carousel-lancamentos ol.carousel-indicators .active {
+  background-color: #ffffff;
+}
+
+section#section-destaque {
+  padding-top: 15px;
+}
+
+.filme-destaque {
+  margin-bottom: 15px;
+  height: 100%;
+}
