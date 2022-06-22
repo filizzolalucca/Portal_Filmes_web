@@ -230,7 +230,7 @@ const searchBar = document.getElementById("input-search")
 const searchButton = document.getElementById("button_pesquisar")
 
 searchButton.addEventListener("click" , (e) => {
-	window.location.href = `/pesquisa/pesquisa.html?query=${searchBar.value}`;
+	window.location.href = `../pesquisa/pesquisa.html?query=${searchBar.value}`;
 	e.preventDefault();
 } )
 
